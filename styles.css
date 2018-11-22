@@ -1,0 +1,59 @@
+body {
+    background-color:hsla(0, 50%, 70%, 0.3)  ;
+    margin: 30px  ;
+    padding: 30px  ;  
+    display:flex;
+    flex-direction: column;
+}
+
+.contentlist { 
+    padding: 0;
+    list-style-type: none;
+}
+
+
+.top {
+    text-align: right  ;
+    width: 90%  ;
+    border-bottom:5px solid black  ;
+    margin-bottom: 20px  ;   
+}
+
+.content-wrapper {
+    overflow: hidden;
+}
+
+#subtitle {
+    margin-left: 60px ;
+    color: grey ;
+    font-size: 40px ;
+    text-align: center ;
+}
+
+@media screen and (max-width: 800px){ 
+  
+    body{
+        background-color: lightpink;
+    }
+    #giraffe_img { 
+        height: 60%;
+        width: 60%;
+    }  
+
+    .box > img{   
+        width:60%;
+        height: 60%;
+    }  
+}
+
+@media screen and (min-width: 1100px){ 
+
+    body{
+        background-color: lightcoral;
+    }
+    .box > img{
+         padding: 2px;
+         flex-wrap: wrap;
+    } 
+
+}

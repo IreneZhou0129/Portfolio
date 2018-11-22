@@ -1,0 +1,29 @@
+.giraffe { 
+    order: 10;
+    display: flex
+}
+
+.giraffe_img { 
+    height: 50%;
+}
+
+.box > img{ 
+    height: 100%;
+    width: 100%
+}
+
+
+
+@media screen and (max-width: 550){ 
+    .giraffe_img  { 
+        width: 100%;
+    }
+
+    .box { 
+        height: 100%
+    }
+    
+    .container{ 
+        width: 100%
+    }
+}
