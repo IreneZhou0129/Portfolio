@@ -1,2 +1,2 @@
 # Portfolio
-A HTML, CSS side project. 
+![](portfolio_demo.gif)
